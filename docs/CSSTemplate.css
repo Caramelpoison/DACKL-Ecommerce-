@@ -1,0 +1,74 @@
+.header, footer{
+    background-color: #344E41;
+    color: #DAD7CD;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body{
+    background-color: white;
+}
+
+/* For section backgrounds, you can use:
+#A3B18A or #DAD7CD 
+
+For the boxes around content, I used a width of 90% and the following code to round it out
+row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg
+*/
+
+/* You can Exempt the following code from your CSS file */
+
+
+.hero, .Flash{
+    background-color: #A3B18A;
+    width: 90%;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@keyframes rotate-scale-up-ver {
+    0% {
+      -webkit-transform: scale(1) rotateY(0);
+              transform: scale(1) rotateY(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateY(180deg);
+              transform: scale(2) rotateY(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateY(360deg);
+              transform: scale(1) rotateY(360deg);
+    }
+  }
+
+  .hero-image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 15px;
+    border: 2px double black;
+    width: 500px;
+    animation: 2s rotate-scale-up-ver 1;
+  }
+
+  .image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 15px;
+    border: 2px double black;
+    animation: 2s rotate-scale-up-ver 1;
+  }
+
+  .feature{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .flash-text{
+    text-align:center;
+    animation: 2s rotate-scale-up-ver 1;
+  }
