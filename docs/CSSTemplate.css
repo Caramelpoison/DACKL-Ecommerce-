@@ -15,7 +15,9 @@ For the boxes around content, I used a width of 90% and the following code to ro
 row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg
 */
 
-/* You can Exempt this from your code */
+/* You can Exempt the following code from your CSS file */
+
+
 .hero, .Flash{
     background-color: #A3B18A;
     width: 90%;
@@ -68,4 +70,5 @@ row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg
 
   .flash-text{
     text-align:center;
+    animation: 2s rotate-scale-up-ver 1;
   }
