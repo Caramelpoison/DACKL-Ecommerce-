@@ -13,17 +13,205 @@
     <!-- BootStrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-
 <body>
-    <header>
-        <h1>Header will go here</h1>
-    </header>
+     <!-- Header/Nav Bar -->
+     <div class="header">
+        <div class="container">
+            <header class="row">
+                <div class="col-2"><a href="/" class="d-flex justify-content-start link-body-emphasis text-decoration-none">
+                    <span class="fs-4 logo">Steigler Store</span>
+                </a>
+                </div>
+                <div class="col-5">
+                    <ul class="nav text-light bg-muted" style="text-decoration: none;">
+                        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 d-flex justify-content-around flex-column flex-sm-row">
+                    <div>
+                        <input id="search" type="text" class="form-control" placeholder="Search...">
+                    </div>
+                    <div>
+                        <a href="#" class="cart">View Cart</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
 
-    <footer>
-        <h1>Footer will go here</h1>
+    <!-- Shopping Cart Code -->
+
+    <section class="h-100 h-custom" style="background-color: #DAD7CD;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12">
+                    <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                        
+                                <!-- Item Section -->
+                                <div class="col-lg-8 flex-no-wrap">
+                                    <div class="p-5">
+                                        <div class="d-flex justify-content-between align-items-center mb-5">
+                                            <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+                                            <h6 class="mb-0 text-muted">2 items</h6>
+                                        </div>
+        
+                                        <hr class="my-4" />
+
+                                        <!-- Item 1 -->
+                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                            <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp" class="img-fluid rounded-3" alt=""/>
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <h6 class="text-muted">*Item Category*</h6>
+                                                <h6 class="text-black mb-0">*Item*</h6>
+                                            </div>
+                                            <!-- Button not showing -->
+                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                    <i class="fas fa-minus"></i>
+                                                </button>
+                        
+                                                <input id="form1" min="0" name="quantity" value="*Number of Items*" type="number" class="form-control form-control-sm"/>
+                        
+                                                <!-- Button not showing -->
+                                                <button class="btn btn-link px-2">
+                                                    <i class="bi bi-caret-left-fill"></i>
+                                                </button>
+                                            </div>
+                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                <h6 class="mb-0">*Price*</h6>
+                                            </div>
+                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                                            </div>
+                                        </div>
+        
+                                        <hr class="my-4" />
+                                        <!-- Item 2 -->
+                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                            <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp" class="img-fluid rounded-3" alt=""/>
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <h6 class="text-muted">*Item Category*</h6>
+                                                <h6 class="text-black mb-0">*Item*</h6>
+                                            </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                                <!-- Not Working -->
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                    <i class="fas fa-minus"></i>
+                                                </button>
+                        
+                                                    <input id="form1" min="0" name="quantity" value="*Number of Items*" type="number" class="form-control form-control-sm"/>
+                                                <!-- Not working -->
+                                                <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                    <i class="fas fa-plus"></i>
+                                                </button>
+                                            </div>
+                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                <h6 class="mb-0">*Price*</h6>
+                                            </div>
+                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                                            </div>
+                                        </div>
+
+                                        <hr class="my-4" />
+                                        <!-- Back to Shop -->
+                                        <div class="pt-5">
+                                            <h6 class="mb-0">
+                                            <a href="#!" class="text-body"><i class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Summary section -->
+                                <div class="col-lg-4 summary">
+                                    <div class="p-5">
+                                        <!-- Item Summary -->
+                                        <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                                        <hr class="my-4" />
+        
+                                        <div class="d-flex justify-content-between mb-4">
+                                            <h5 class="text-uppercase">items 2</h5>
+                                            <h5>*total price*</h5>
+                                        </div>
+                                        <!-- Shipping -->
+                                        <h5 class="text-uppercase mb-3">Shipping</h5>
+        
+                                        <div class="mb-4 pb-2">
+                                            <select class="select">
+                                                <option value="1">Standard-Delivery- $5.00</option>
+                                                <option value="2">Same-Day-Delivery- $30.00</option>
+                                                <option value="3">Two-Day-Delivery- $20.00</option>
+                                                <option value="4">One-Week-Shipping $10.00</option>
+                                            </select>
+                                        </div>
+                                        <!-- Coupon Code -->
+                                        <h5 class="text-uppercase mb-3">Give code</h5>
+        
+                                        <div class="mb-5">
+                                            <div class="form-outline">
+                                                <input type="text" id="CouponCode" class="form-control form-control-lg"/>
+                                                <label class="form-label" for="CouponCode">Enter your code</label>
+                                            </div>
+                                        </div>
+        
+                                        <hr class="my-4" />
+        
+                                        <div class="d-flex justify-content-between mb-5">
+                                            <h5 class="text-uppercase">Total price</h5>
+                                            <h5>*Total Price*</h5>
+                                        </div>
+        
+                                        <button type="button" class="btn btn-dark btn-block btn-lg" data-mdb-ripple-color="dark">
+                                        Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h5>Information</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-success">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-success">Shop</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-success">Checkout</a></li>
+                </ul>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-md-4 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-success mx-2 mb-3" type="button">Subscribe</button>
+                    </div>
+                 </form>
+            </div>
+        </div>
+        
+        <div class="d-flex justify-content-center">
+            <p>© 2023 DACKL Devs, Inc. All rights reserved.</p>
+        </div>
     </footer>
-
-
     <!-- BootStrap Java Stuff -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
