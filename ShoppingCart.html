@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="CSSShoppingCart.css">
     <!-- BootStrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!-- Icon Link -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
      <!-- Header/Nav Bar -->
@@ -65,26 +67,28 @@
                                         <!-- Item 1 -->
                                         <div class="row mb-4 d-flex justify-content-between align-items-center">
                                             <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <!-- Need image link and alternate description -->
                                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp" class="img-fluid rounded-3" alt=""/>
                                             </div>
                                             <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <!-- Needs to be filled out -->
                                                 <h6 class="text-muted">*Item Category*</h6>
                                                 <h6 class="text-black mb-0">*Item*</h6>
                                             </div>
-                                            <!-- Button not showing -->
+                                            
                                             <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
                                                 <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                    <i class="fas fa-minus"></i>
+                                                    <i class="glyphicon glyphicon-minus icon"></i>
                                                 </button>
-                        
+                                                <!-- *Number of Items* needs to be filled out -->
                                                 <input id="form1" min="0" name="quantity" value="*Number of Items*" type="number" class="form-control form-control-sm"/>
                         
-                                                <!-- Button not showing -->
                                                 <button class="btn btn-link px-2">
-                                                    <i class="bi bi-caret-left-fill"></i>
+                                                    <i class="glyphicon glyphicon-plus icon"></i>
                                                 </button>
                                             </div>
                                             <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                <!-- Needs Price -->
                                                 <h6 class="mb-0">*Price*</h6>
                                             </div>
                                             <div class="col-md-1 col-lg-1 col-xl-1 text-end">
@@ -96,25 +100,28 @@
                                         <!-- Item 2 -->
                                         <div class="row mb-4 d-flex justify-content-between align-items-center">
                                             <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <!-- Needs image link and alternate description -->
                                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp" class="img-fluid rounded-3" alt=""/>
                                             </div>
                                             <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <!-- Needs to be filled out -->
                                                 <h6 class="text-muted">*Item Category*</h6>
                                                 <h6 class="text-black mb-0">*Item*</h6>
                                             </div>
                                             <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                                                <!-- Not Working -->
+                                                
                                                 <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                    <i class="fas fa-minus"></i>
+                                                    <i class="glyphicon glyphicon-minus icon"></i>
                                                 </button>
-                        
+                                                    <!-- *Number of Items* needs to be filled out -->
                                                     <input id="form1" min="0" name="quantity" value="*Number of Items*" type="number" class="form-control form-control-sm"/>
-                                                <!-- Not working -->
+                                                
                                                 <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                                                    <i class="fas fa-plus"></i>
+                                                    <i class="glyphicon glyphicon-plus icon"></i>
                                                 </button>
                                             </div>
                                             <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                <!-- Needs price -->
                                                 <h6 class="mb-0">*Price*</h6>
                                             </div>
                                             <div class="col-md-1 col-lg-1 col-xl-1 text-end">
@@ -126,7 +133,8 @@
                                         <!-- Back to Shop -->
                                         <div class="pt-5">
                                             <h6 class="mb-0">
-                                            <a href="#!" class="text-body"><i class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a>
+                                            <!-- Needs link back to shop -->
+                                            <a href="#!" class="text-body"><i class="glyphicon glyphicon-arrow-left icon me-2"></i>Back to shop</a>
                                             </h6>
                                         </div>
                                     </div>
@@ -140,6 +148,7 @@
         
                                         <div class="d-flex justify-content-between mb-4">
                                             <h5 class="text-uppercase">items 2</h5>
+                                            <!-- Needs total price -->
                                             <h5>*total price*</h5>
                                         </div>
                                         <!-- Shipping -->
@@ -167,6 +176,7 @@
         
                                         <div class="d-flex justify-content-between mb-5">
                                             <h5 class="text-uppercase">Total price</h5>
+                                            <!-- Needs total price -->
                                             <h5>*Total Price*</h5>
                                         </div>
         
