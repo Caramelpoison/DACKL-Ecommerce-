@@ -1,0 +1,71 @@
+/* Copy this into head to link CSS Documents 
+
+    <!-- Link Google Fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- Link in CSS page -->
+    <link rel="stylesheet" href=""*Enter your css file name*"">
+    <!-- BootStrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+Add this before the closing body tag (</body>) to make sure bootstrap works
+<!-- BootStrap Java Stuff -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+*/
+
+/* For section backgrounds, you can use:
+#A3B18A or #DAD7CD 
+
+For the boxes around content, I used a width of 90% and the following code to round it out
+row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg
+*/
+
+.header, footer{
+    background-color: #344E41;
+    color: #DAD7CD;
+    font-family: 'Montserrat', sans-serif;;
+  }
+  
+  .logo{
+  color: white;
+  font-weight: bold;
+  }
+  
+  a:link{
+  color:white;
+  }
+  
+  a:visited{
+  color: white;
+  }
+  
+  a:hover{
+  color: black;
+  }
+  
+  .cart{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 8px;
+  text-decoration: none;
+  }
+  
+  body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .section {
+    background-color: #A3B18A;
+  }
+
+  .checkout-container {
+    background-color: white;
+  }
+
+  
+  
