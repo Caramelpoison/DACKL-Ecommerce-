@@ -1,10 +1,43 @@
 .header, footer{
     background-color: #344E41;
     color: #DAD7CD;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body{
+    font-family: 'Montserrat', sans-serif;;
+  }
+  
+  .logo{
+  color: white;
+  font-weight: bold;
+  }
+  
+  a:link{
+  color:white;
+  }
+  
+  a:visited{
+  color: white;
+  }
+  
+  a:hover{
+  color: black;
+  }
+  
+  .cart{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 8px;
+  text-decoration: none;
+  }
+  
+  body{
     background-color: white;
     font-family: 'Montserrat', sans-serif;
-}
+  }
+  
+  .summary{
+    background-color: #A3B18A;
+  }
+
+  .icon{
+    color: #344E41
+  }
