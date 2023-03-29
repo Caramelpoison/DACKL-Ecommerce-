@@ -7,35 +7,37 @@
     <title>Products</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="product-listing.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
-<!--Navbar Header and footer-->
-    <div class="header">
-        <div class="container">
-            <header class="row">
-                <div class="col-2"><a href="/" class="d-flex justify-content-start link-body-emphasis text-decoration-none">
-                    <span class="fs-4 logo">Steigler Store</span>
-                </a>
+<!-- Header/Nav Bar -->
+<div class="header">
+    <div class="container">
+        <header class="row">
+            <div class="col-2"><a href="/" class="d-flex justify-content-start link-body-emphasis text-decoration-none">
+                <span class="fs-4 logo">Steigler Store</span>
+            </a>
+            </div>
+            <div class="col-5">
+                <ul class="nav text-light bg-muted" style="text-decoration: none;">
+                    <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="product-listings.html" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="https://i.redd.it/mddt31dilqd31.jpg" class="nav-link">FAQs</a></li>
+                    <li class="nav-item"><a href="https://w6.123animes.mobi/" class="nav-link">About</a></li>
+                </ul>
+            </div>
+            <div class="col-5 d-flex justify-content-around flex-column flex-sm-row">
+                <div>
+                    <input id="search" type="text" class="form-control" placeholder="Search...">
                 </div>
-                <div class="col-5">
-                    <ul class="nav text-light bg-muted" style="text-decoration: none;">
-                        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
-                        <li class="nav-item"><a href="product-listings.html" class="nav-link">Shop</a></li>
-                        <li class="nav-item"><a href="https://i.redd.it/mddt31dilqd31.jpg" class="nav-link">FAQs</a></li>
-                        <li class="nav-item"><a href="https://w6.123animes.mobi/" class="nav-link">About</a></li>
-                    </ul>
+                <div>
+                    <a href="ShoppingCart.html" class="cart">View Cart</a>
                 </div>
-                <div class="col-5 d-flex justify-content-around flex-column flex-sm-row">
-                    <div>
-                        <input id="search" type="text" class="form-control" placeholder="Search...">
-                    </div>
-                    <div>
-                        <a href="#" class="cart">View Cart</a>
-                    </div>
-                </div>
-            </header>
-        </div>
+            </div>
+        </header>
     </div>
+</div>
 
     <div class="container mt-5 mb-5">
         <div class="d-flex justify-content-center row">
@@ -49,14 +51,14 @@
                         </div>
                         <div class="mt-1 mb-1 spec-1"><span>Stainless Steel</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Straw included<br></span></div>
                         <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For everyone</span><span class="dot"></span><span>better than the Stanley tumbler<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">When in doubt, refresh the page. <br><br></p>
+                        <p class="text-justify text-truncate para mb-0">"Keeps your drinks so cold, it's like Elsa froze them herself."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
                             <h4 class="mr-1">$24.99</h4>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -67,15 +69,15 @@
                             <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
                         <div class="mt-1 mb-1 spec-1"><span>High quality</span><span class="dot"></span><span>Very sticky</span><span class="dot"></span><span>Beautiful<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>Stick anywhere</span><span class="dot"></span><span>Wow<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">Please enjoy this sticker art, it was hand-painted in Japan by 47 Japanese artists. Now on sale!<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>Japanese</span><span class="dot"></span><span>Stick anywhere</span><span class="dot"></span><span>Handmade</span><br></span></div>
+                        <p class="text-justify text-truncate para mb-0">"Stick it on anything for an instant cuteness upgrade, even your pet rock will look adorable."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
                             <h4 class="mr-1">$4.99</h4><span class="strike-text">$10,000</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -87,14 +89,14 @@
                         </div>
                         <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Embroidered</span><span class="dot"></span><span>800 thread count<br></span></div>
                         <div class="mt-1 mb-1 spec-1"><span>Thermal</span><span class="dot"></span><span>Unisex</span><span class="dot"></span><span>Edgy<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">Stay warm this winter with your very own SET beanie. More colors coming soon.<br><br></p>
+                        <p class="text-justify text-truncate para mb-0">"Wearing this beanie will instantly make you smarter, just ask Einstein's ghost."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
                             <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -104,16 +106,17 @@
                         <div class="d-flex flex-row">
                             <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span></span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Eco-Friendly<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Reuseable</span><span class="dot"></span><span>Vegan</span><span class="dot"></span><span>Organic<br></span></div>
+                        <p class="text-justify text-truncate para mb-0">"Perfect for carrying your groceries, your gym clothes, or your existential dread."
+                            <br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
                             <h4 class="mr-1">$15.99</h4><span class="strike-text">$21.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -121,18 +124,19 @@
                     <div class="col-md-6 mt-1">
                         <h5>Anime Hector iphone 14 Case</h5>
                         <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>Military-grade</span><span class="dot"></span><span>Bulletproof</span><span class="dot"></span><span>Waterproof<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Japanese Design</span><span class="dot"></span><span>Sturdy</span><span class="dot"></span><span>Fall-resistant<br></span></div>
+                        <p class="text-justify text-truncate para mb-0">"Protects your phone from scratches, drops, and otaku ninjas trying to steal it."
+                            <br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
                             <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -140,18 +144,18 @@
                     <div class="col-md-6 mt-1">
                         <h5>CTAC T-shirt</h5>
                         <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Screen printed<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>High-quality</span><span class="dot"></span><span>Unisex</span><span class="dot"></span><span>Breathable<br></span></div>
+                        <p class="text-justify text-truncate para mb-0">"Wearing this shirt will make you 200% cooler and 75% more likely to start a band."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
-                            <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
+                            <h4 class="mr-1">$19.99</h4><span class="strike-text">$32.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -161,16 +165,16 @@
                         <div class="d-flex flex-row">
                             <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>Rembrandt</span>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">Only 1 available. Original oil on canvas portrait of Hector. Painted by rembrandt.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>Rare</span><span class="dot"></span><span>Hand-painted</span><span class="dot"></span><span>Made with oil paints<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Collector's item</span><span class="dot"></span><span>Original artwork</span><span class="dot"></span><span>Hand-stretched canvas<br></span></div>
+                        <p class="text-justify text-truncate para mb-0">Only 1 available! "This painting of Hector is so realistic, you'll feel like he's judging you silently from your living room wall."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
                             <h4 class="mr-1">$1,350,500</h4><span class="strike-text">$1,500,000</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -178,18 +182,18 @@
                     <div class="col-md-6 mt-1">
                         <h5>Be An All-Star Ornament</h5>
                         <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>Real Oak wood</span><span class="dot"></span><span>Handcrafted</span><span class="dot"></span><span><br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Magnetic</span><span class="dot"></span><span>Christmas Ornament</span><span class="dot"></span><span>Festive<br></span></div>
+                        <p class="text-justify text-truncate para mb-0">"Hang it on your Christmas tree to remind yourself of all the sports you're not good at."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
-                            <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
+                            <h4 class="mr-1">$7.99</h4><span class="strike-text">$14.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -197,18 +201,18 @@
                     <div class="col-md-6 mt-1">
                         <h5>Boilerplate gaming deskpad</h5>
                         <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>Gamer</span><span class="dot"></span><span>Nerds</span><span class="dot"></span><span>HTML<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Mousepad</span><span class="dot"></span><span>Smooth</span><span class="dot"></span><span>Front-end<br></span></div>
+                        <p class="text-justify text-truncate para mb-0"><br>"This deskpad is so smooth, you'll be able to slide your mouse with your mind."<br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
-                            <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
+                            <h4 class="mr-1">$19.99</h4><span class="strike-text">$45.00</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -216,18 +220,18 @@
                     <div class="col-md-6 mt-1">
                         <h5>CTAC Joggers</h5>
                         <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>Fleece-lined</span><span class="dot"></span><span>3 Pockets</span><span class="dot"></span><span>Cosy<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Branded</span><span class="dot"></span><span>Unisex</span><span class="dot"></span><span>High-quality<br></span></div>
+                        <p class="text-justify text-truncate para mb-0">"Perfect for running marathons, running errands, or running away from your responsibilities."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
-                            <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
+                            <h4 class="mr-1">$24.99</h4><span class="strike-text">$30.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -235,10 +239,10 @@
                     <div class="col-md-6 mt-1">
                         <h5>Meme Metal Plaque</h5>
                         <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Certified meme</span><span class="dot"></span><span>Aluminum</span><span class="dot"></span><span>Programmer<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Pooh-bear</span><span class="dot"></span><span>For everyone</span><span class="dot"></span><span>Nerd<br></span></div>
                         <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
@@ -246,7 +250,7 @@
                             <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
                 <div class="row p-2 bg-white border rounded mt-2">
@@ -254,23 +258,52 @@
                     <div class="col-md-6 mt-1">
                         <h5>Hector For President Iron-on Patch</h5>
                         <div class="d-flex flex-row">
-                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div><span>310</span>
+                            <div class="ratings mr-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="mt-1 mb-1 spec-1"><span>100% cotton</span><span class="dot"></span><span>Light weight</span><span class="dot"></span><span>Best finish<br></span></div>
-                        <div class="mt-1 mb-1 spec-1"><span>Unique design</span><span class="dot"></span><span>For men</span><span class="dot"></span><span>Casual<br></span></div>
-                        <p class="text-justify text-truncate para mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.<br><br></p>
+                        <div class="mt-1 mb-1 spec-1"><span>Embroidered</span><span class="dot"></span><span>Vote</span><span class="dot"></span><span>High-quality<br></span></div>
+                        <div class="mt-1 mb-1 spec-1"><span>Political</span><span class="dot"></span><span>For the people</span><span class="dot"></span><span>Freedom<br></span></div>
+                        <p class="text-justify text-truncate para mb-0">"Wear this patch to show your support for Hector, the only candidate who truly understands the importance of napping."<br><br></p>
                     </div>
                     <div class="align-items-center align-content-center col-md-3 border-left mt-1">
                         <div class="d-flex flex-row align-items-center">
-                            <h4 class="mr-1">$14.99</h4><span class="strike-text">$20.99</span>
+                            <h4 class="mr-1">$4.99</h4><span class="strike-text">$14.99</span>
                         </div>
                         <h6 class="text-success">Free shipping</h6>
-                        <div class="d-flex flex-column mt-4"><button class="btn btn-primary btn-sm" type="button">Details</button><button class="btn btn-outline-primary btn-sm mt-2" type="button">Add to cart</button></div>
+                        <div class="d-flex flex-column mt-4"><button class="btn btn-success bg-success text-white px-4 me-md-2" type="button">Details</button><button class="btn btn-outline-secondary text-success btn-sm mt-2" type="button">Add to cart</button></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h5>Information</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-success">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-success">Shop</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-success">Checkout</a></li>
+                </ul>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-md-4 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-success mx-2 mb-3" type="button">Subscribe</button>
+                    </div>
+                 </form>
+            </div>
+        </div>
+        
+        <div class="d-flex justify-content-center">
+            <p>© 2023 DACKL Devs, Inc. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
