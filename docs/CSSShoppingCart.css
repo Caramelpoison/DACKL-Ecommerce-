@@ -41,3 +41,19 @@
   .icon{
     color: #344E41
   }
+
+  @media (min-width:768px) {
+    .logo{
+      font-size: 16px;
+    }
+}
+@media (min-width:1024px) {
+    .logo{
+      font-size: 20px;
+    }
+}
+@media (min-width:1280px) {
+    .logo{
+      font-size: 24px;
+    }
+}
